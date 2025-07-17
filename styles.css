@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cf12124a;
+}
+
+header {
+    background: #35424a;
+    color: #e3bbbb;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow:navajowhite;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color:white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+/*          Certificates css        */
+
+.certificates-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 20px;
+}
+
+.certificate-item {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.certificate-item:hover {
+    transform: translateY(-7px);
+}
+
+.certificate-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.nav-link.active {
+    font-weight: 600;
+    background-color: rgba(208, 18, 18, 0.3);
+}
